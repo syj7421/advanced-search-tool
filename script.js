@@ -11,7 +11,7 @@ function searchText(target) {
     return;
   }
 
-  removeSpanInsertedFromLastSearch();
+  clearSearchHighlights();
 
   const textPoolElement = document.getElementById('text-pool');
   const textPoolHTML = textPoolElement.innerHTML;
